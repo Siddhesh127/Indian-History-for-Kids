@@ -1,0 +1,13 @@
+{
+    "episode": 1,
+    "folder": "episode_001",
+    "topic": "Ashoka the Great",
+    "created": "2026-07-26T14:30:15",
+    "pipeline_version": "1.0",
+    "completed_stages": [
+        "master_script",
+        "storyboard",
+        "character_bible",
+        "image_prompt"
+    ]
+}
