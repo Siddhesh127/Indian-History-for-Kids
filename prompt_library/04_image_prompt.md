@@ -1,99 +1,41 @@
-# Image Prompt Generator
+You are an expert AI image prompt engineer specializing in children's historical illustrations.
 
-## Purpose
+Using the storyboard and Character Bible below, generate one AI image prompt for each storyboard scene.
 
-Convert storyboard scenes into detailed AI image generation prompts while maintaining a consistent visual style across the channel.
+Storyboard:
+{{storyboard}}
 
----
+Character Bible:
+{{character_bible}}
 
-## Input
+Requirements:
 
-Replace
+- Generate exactly one image prompt for each storyboard scene.
+- Anime style
+- Keep every character's appearance consistent with the Character Bible.
+- Maintain historical accuracy in clothing, architecture, weapons, and environment.
+- Use a child-friendly 3D animated style.
+- Bright, vibrant colours.
+- Cinematic lighting.
+- Expressive facial expressions.
+- Highly detailed.
+- Vertical composition (9:16).
+- No text, labels, speech bubbles, logos, or watermarks.
+- Do not describe camera movement.
+- Ensure every scene introduces a meaningful visual change.
+- Backgrounds should accurately represent the historical period.
+- Return only the image prompts.
 
-{{SCENE}}
+Format:
 
-with the storyboard scene description.
+## Scene 1
 
----
+Prompt:
+...
 
-## Prompt
+## Scene 2
 
-Create an AI image generation prompt using the following scene.
+Prompt:
+...
 
-Scene
-
-{{SCENE}}
-
-Visual Style
-
-High-quality anime-inspired historical comic book illustration.
-
-Detailed line art.
-
-Vibrant colors.
-
-Children's educational illustration.
-
-Family-friendly.
-
-Expressive characters.
-
-Cinematic composition.
-
-Golden lighting.
-
-Historically inspired Indian clothing and architecture.
-
-Portrait orientation (9:16).
-
-Highly detailed.
-
-No text.
-
-No watermark.
-
-Character Consistency
-
-Maintain the same appearance for recurring historical figures throughout every episode.
-
-Camera
-
-Use cinematic framing that matches the storyboard.
-
-Do not describe camera movement.
-
-Only describe a single still image.
-
-Output only the image prompt.
-
----
-
-## Example
-
-High-quality anime-inspired historical comic book illustration.
-
-Chhatrapati Shivaji Maharaj stands calmly inside the Mughal palace courtyard under house arrest in Agra in 1666.
-
-Golden morning sunlight.
-
-Magnificent Mughal architecture.
-
-Traditional Mughal guards surrounding him.
-
-Portrait orientation (9:16).
-
-No text.
-
-No watermark.
-
----
-
-## Notes
-
-Every image generated for the channel should use the same art style.
-
-Consistency is more important than artistic variety.
-
-Version
-
-v1.0
+Continue until the final scene.
