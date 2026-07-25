@@ -1,75 +1,24 @@
-# Voice-over Generator
+You are an expert voice director and narration editor for educational YouTube Shorts aimed at children aged 8–14.
 
-## Purpose
+Your task is to convert the narration below into a voiceover script that sounds natural when spoken by an AI text-to-speech engine.
 
-Rewrite the narration script into a format optimized for AI voice generation.
+Narration:
+{{script}}
 
-The goal is to produce natural storytelling that sounds engaging when spoken aloud.
+Requirements:
 
----
+- Preserve every historical fact exactly.
+- Do not add or remove information.
+- Do not change the order of events.
+- Improve the rhythm and pacing for spoken narration.
+- Insert natural pauses where appropriate.
+- Break long sentences into shorter spoken phrases.
+- Emphasize exciting moments naturally through punctuation only.
+- Keep the narration enthusiastic, clear, and child-friendly.
+- Ensure the total speaking time remains approximately 45–60 seconds.
+- Do not include stage directions.
+- Do not include pronunciation guides.
+- Do not include SSML tags.
+- Return only the final voiceover script.
 
-## Input
-
-Replace
-
-{{SCRIPT}}
-
-with the narration script.
-
----
-
-## Prompt
-
-Rewrite the following narration for AI voice generation.
-
-SCRIPT
-
-{{SCRIPT}}
-
-Requirements
-
-• Keep the meaning exactly the same.
-
-• Use short, natural sentences.
-
-• Add pauses by leaving blank lines.
-
-• Improve rhythm for storytelling.
-
-• Avoid tongue twisters.
-
-• Easy pronunciation.
-
-• Suitable for children aged 8–14 years.
-
-• Warm, exciting storytelling style.
-
-• Do not add any new historical information.
-
-• Do not remove important facts.
-
-Output only the narration.
-
----
-
-## Example
-
-Did you know one of India's greatest kings escaped from Agra...
-
-(blank line)
-
-In 1666...
-
-(blank line)
-
-But Shivaji Maharaj had a clever plan...
-
----
-
-## Notes
-
-This output is intended for AI voice generators such as ElevenLabs, Google AI Studio, OpenAI TTS, or similar services.
-
-Version
-
-v1.0
+Return only the rewritten narration.
