@@ -18,6 +18,17 @@ Requirements:
 - Avoid political opinions.
 - Avoid religious bias.
 - Maintain a respectful tone toward all historical figures.
+- Every sentence should create curiosity for the next sentence.
+- Use short, punchy sentences.
+- Avoid long explanations.
+- Every 8–12 seconds introduce a new interesting fact or twist.
 - End with: "Follow Indian History for Kids for more."
+
+  Structure: 
+  0–3 sec: Hook
+  3–15 sec: Introduce the character/event
+  15–40 sec: Main story
+  40–55 sec: Interesting fact or surprising ending
+  55–60 sec: "Follow Indian History for Kids for more."
 
 Return only the narration.
