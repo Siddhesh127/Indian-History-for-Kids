@@ -1,89 +1,32 @@
-# Thumbnail Prompt Generator
+You are an expert AI thumbnail prompt engineer.
 
-## Purpose
+Using the narration and Character Bible, generate one thumbnail prompt.
 
-Generate an AI image prompt for creating a YouTube Shorts thumbnail.
+Narration:
+{{script}}
 
-The thumbnail should immediately attract attention while remaining historically respectful and suitable for children.
+Character Bible:
+{{character_bible}}
 
----
+Requirements:
 
-## Input
+- Focus on the most exciting moment.
+- One main subject.
+- Dramatic facial expression.
+- Bright colours.
+- High contrast.
+- Child-friendly.
+- Historically accurate clothing.
+- Vertical 9:16.
+- Leave space at the top for optional title text.
+- No text inside the generated image.
+- No watermark.
+- Highly detailed.
 
-Replace
+Return only JSON.
 
-{{TOPIC}}
+Format:
 
-with today's topic.
-
----
-
-## Prompt
-
-Create an AI image prompt for a YouTube Shorts thumbnail.
-
-TOPIC
-
-{{TOPIC}}
-
-Requirements
-
-• Show the main historical figure as the focus.
-
-• Large expressive face.
-
-• Bright colors.
-
-• High contrast.
-
-• Dramatic lighting.
-
-• Anime-inspired historical comic style.
-
-• Portrait orientation (9:16).
-
-• Leave empty space near the top for adding text later.
-
-• Historically inspired clothing.
-
-• Family friendly.
-
-• Educational.
-
-• No watermark.
-
-• No text inside the generated image.
-
-The character should look exactly like the Character Bible.
-
-Output only the image prompt.
-
----
-
-## Example
-
-High-quality anime-inspired historical comic book illustration.
-
-Close-up portrait of Chhatrapati Shivaji Maharaj wearing his bright saffron turban and gold armor.
-
-Determined facial expression.
-
-Golden sunrise lighting.
-
-Simple blurred fort background.
-
-Portrait orientation.
-
-No text.
-
-No watermark.
-
----
-
-## Notes
-
-Every thumbnail should immediately communicate the subject of the episode.
-
-Version
-
-v1.0
+{
+    "prompt":"..."
+}
