@@ -1,83 +1,29 @@
-# Translation Generator
+You are an expert translator for children's educational content.
 
-## Purpose
+Translate the narration below.
 
-Translate the narration into multiple Indian languages while maintaining the original meaning, tone and storytelling style.
+Narration:
+{{script}}
 
-Translations should sound natural rather than literal.
+Requirements:
 
----
+- Preserve every historical fact.
+- Keep the same excitement.
+- Use simple language.
+- Suitable for children aged 8–14.
+- Do not shorten.
+- Do not expand.
 
-## Input
+Translate into:
 
-Replace
+- Hindi
+- Marathi
 
-{{SCRIPT}}
+Return only JSON.
 
-with the English narration.
+Format:
 
----
-
-## Prompt
-
-Translate the following narration into:
-
-Hindi
-
-Marathi
-
-Requirements
-
-• Preserve the meaning.
-
-• Preserve historical accuracy.
-
-• Use natural conversational language.
-
-• Suitable for children aged 8–14 years.
-
-• Keep storytelling style.
-
-• Keep dramatic pauses by leaving blank lines where appropriate.
-
-• Do not shorten the narration.
-
-• Do not add new historical information.
-
-SCRIPT
-
-{{SCRIPT}}
-
-Output format
-
-English
-
-Hindi
-
-Marathi
-
----
-
-## Example
-
-English
-
-Did you know...
-
-Hindi
-
-क्या आपको पता है...
-
-Marathi
-
-तुम्हाला माहिती आहे का...
-
----
-
-## Notes
-
-Translations should prioritize natural speech rather than word-for-word translation.
-
-Version
-
-v1.0
+{
+    "hindi":"...",
+    "marathi":"..."
+}
