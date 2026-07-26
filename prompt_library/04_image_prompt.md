@@ -28,20 +28,20 @@ Return ONLY valid JSON.
 The JSON format must be:
 
 [
-  {
-    "scene": 1,
-    "title": "Short scene title",
-    "prompt": "Complete AI image prompt"
-  },
-  {
-    "scene": 2,
-    "title": "Short scene title",
-    "prompt": "Complete AI image prompt"
-  }
+    {
+        "scene": 1,
+        "image_name": "scene_01.png",
+        "title": "Short scene title",
+        "duration": 5,
+        "prompt": "Complete AI image prompt"
+    }
 ]
 
 Rules:
 
+- Generate exactly 10 scenes.
+- image_name must be scene_01.png through scene_10.png.
+- duration should be between 4 and 6 seconds.
 - Return valid JSON only.
 - Do not use Markdown.
 - Do not wrap the JSON inside code fences.
